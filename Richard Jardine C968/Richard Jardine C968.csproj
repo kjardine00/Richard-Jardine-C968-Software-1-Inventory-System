@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Richard_Jardine_C968</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="PartAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProductAdd - Copy %282%29.Designer.cs">
+      <DependentUpon>ProductAdd.Designer.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="ProductAdd - Copy %283%29.resx">
+      <DependentUpon>ProductAdd.resx</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
